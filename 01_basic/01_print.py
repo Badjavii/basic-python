@@ -1,15 +1,24 @@
+from colorama import * # importation of the colorama library
 ###
 # 01 - print()
-# El módulo print() es el módulo que nos permite imprimir en consola
-# Sirve para mostrar información en consola
+# print() is the module that let us print in the console,
+# It is used display information in the consola.
+# We also can use the 'Colorama' library that allows us add colors to our prints.
 ###
 
-print("Hola Mundo")
-print('Funciona con comillas simples')
+print(Fore.LIGHTRED_EX + "Hello World")
+print('Works with single quotes' + Fore.RESET)
 
-print("Python", "es", "genial")
+print(Fore.YELLOW+"Python", Fore.BLUE+"is", Fore.RED+"cool")
 
-print("Python", "es", "brutal", sep="-")
+print("Python", "IS", "AWESOME", sep="-")
 
-print("Esto se imprime", end="")
-print(" en la misma línea")
+print("This is printed", end="")
+print(" on the same line")
+
+###
+# 01 - os
+# os is the module that let us print in the console,
+# It is used display information in the consola.
+# We also can use the 'Colorama' library that allows us add colors to our prints.
+###
